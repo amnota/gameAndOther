@@ -1,0 +1,56 @@
+body{
+    background-color: yellow;
+    align-items: center;
+    text-align: center;
+    margin: 0 ;/**/
+    display: flex;/**/
+    justify-content: center;
+    height: 100vh;/*vh = viewport height 100Vh represent of 100% of viewport height*/
+    font-family: cursive;
+}
+#myIdForm{
+    background-color:white;
+    padding: 20px;
+    box-shadow: 0px/*vertical*/ 4px /*horizontal*/ 8px 0px rgb(0,0,0 .3); 
+    /*shadow : vertical horizontal blur spread if not assign just leave or assign 0
+     and we can also add rgb with shadow 
+     >> rgb funtion set a color wtih a alpha value * if 0 for red 0 for green and 0 for blue = black
+                    alpha value is a tranparency or opacity*/
+    border-radius: 25px;
+    margin: 10px; /*create an space around element*/
+}
+#myInput{
+    border: 4px solid ;
+    border-color: green;
+    display: block;
+    box-sizing: border-box;/*made the input element box ฟิต พอดีกับ form */
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    font-family: cursive;
+    color: green;
+}
+#submitBtn{
+    height:40px;
+    width: 100%;
+    font-family: cursive;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px;/* used to create space around element  here just top and rifht*/
+    box-shadow: 0px 2px 4px rgb(0,0,0 .3);
+    cursor: pointer;
+
+}
+#submitBtn:hover{
+    filter:brightness(1.5)
+}
+#myScore{
+    color: green;
+    text-align:right;
+
+}

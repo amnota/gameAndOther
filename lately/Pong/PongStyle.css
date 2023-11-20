@@ -1,0 +1,19 @@
+#gameBoard{
+    border: 3px solid;
+}
+#scoreText{
+    font-family: "consolas", monospace;
+    font-size: 100px;
+}
+#resetBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    border: 3px solid;
+    width: 100px;/*w,h ของ Btn*/
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#gameContainer{
+    text-align: center;/*ดูดีๆ จะไม่ใช่ align เฉยๆ*/
+}

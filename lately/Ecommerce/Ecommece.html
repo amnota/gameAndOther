@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore | Ecommerce Website Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href= "Ecommerce.css">
+</head>
+<body>
+    
+  <div class="header">
+     <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="Ecommece.html"><img src="logo.png" width="150px"></a>
+                </div>
+                <nav>
+                    <ul id="menuItem">
+                        <li><a href="Ecommece.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="Ecommece.html">About</a></li>
+                        <li><a href="Ecommece.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="cart.png" height="30px" width="30px"></a>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+         <div class="row">
+           <div class="col-2">
+                <h1>Give Your Workout <br>A new Style!</h1>
+                <p>Success isn't always about greatness.It's about consistency. Consistent<br> hard work gains success. Greatness will come.</p>
+                <a href="" class="Btn">Explore Now &#10141;</a> <!--ทำไมไม่ใช้<button>-->
+           </div>
+           <div class="col-2 img">
+                <img src="image1.png" >
+           </div>
+         </div>    
+    </div>
+  </div>
+  
+
+    <!----------feature categories---------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="category-1.jpg" >
+                </div>
+                <div class="col-3">
+                    <img src="category-2.jpg" >
+                </div>
+                <div class="col-3">
+                    <img src="category-3.jpg" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------feature Product has 2 row(feature PD and latest PD) and 1 row has 4 product another one has 6 PD---------->
+    <div class="small-container"><!--ใช้class เดิม เพราะมัน style ไว้แล้ว-->
+        <h2 class="title">Feature Products</h2><!-- title-->
+        <div class="row"><!--for create column-->
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-1.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-2.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-3.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-4.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+        </div>  
+
+        <!----------create Other Product---------------->
+
+        <h2 class="title">Latest Products</h2><!-- title-->
+        <div class="row"><!--for create column-->
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-5.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-6.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-7.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-8.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-9.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-10.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-11.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-12.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+        </div>  
+    </div>
+    <!----------Special offer-------------->
+   <div class="offer">
+    <div class="small-container">
+        <div class="row"><!--we need 2 column so use row-->
+            <div class="col-2">
+                <img src="exclusive.png" alt="">
+            </div>
+            <div class="col-2"> <!--ที่ใช้ class เดิมเพราะมันstyle ไว้แล้ว-->
+                <p>Exclusively Available on Redstore</p>
+                <h1>The Mi Smart Band 4</h1> 
+                <small>feature a 39.9% larger(than Mi band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be</small>
+                <a class="Btn">Buy Now &#8594; </a><!--add button-->
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------testimonial------------------>
+<div class="testimonail">
+    <div class="small-container">
+        <div class="row"><!--we need some column so name class "row"-->
+            <div class="col-3"><!--we need 3 column  -->
+                <i class="fa fa-quote-left"></i><!--add qoute icon to text-->
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nulla eveniet libero itaque earum, fugiat ad nam provident neque cupiditate consectetur dolores excepturi et harum ipsum aliquam ex est veniam?</p>
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <i><img src="user-1.png" ></i><!--img of user -->
+                <h3>Sean Parker</h3> <!--name of user -->
+            </div>
+            <div class="col-3"><!--we need 3 column -->
+                <i class="fa fa-quote-left"></i><!--add qoute icon to text-->
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nulla eveniet libero itaque earum, fugiat ad nam provident neque cupiditate consectetur dolores excepturi et harum ipsum aliquam ex est veniam?</p>
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <i><img src="user-2.png" ></i><!--img of user -->
+                <h3>Mike Smith</h3> <!--name of user -->
+            </div>
+            <div class="col-3"><!--we need 3 column  -->
+                <i class="fa fa-quote-left"></i><!--add qoute icon to text-->
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nulla eveniet libero itaque earum, fugiat ad nam provident neque cupiditate consectetur dolores excepturi et harum ipsum aliquam ex est veniam?</p>
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <i><img src="user-3.png" ></i><!--img of user -->
+                <h3>Mabel Joe</h3> <!--name of user -->
+            </div>
+        </div>
+    </div>   
+</div>
+<!----------------Brand Section-------------->
+<div class="brands">
+    <div class="small-container"><!--style ไว้แล้ว-->
+        <div class="row"><!--for column-->
+           <div class="col-5"><!--need 5 col-->
+            <img src="logo-coca-cola.png" >
+           </div>
+           <div class="col-5"><!--need 5 col-->
+            <img src="logo-godrej.png" >
+           </div>
+           <div class="col-5"><!--need 5 col-->
+            <img src="logo-oppo.png" >
+           </div>
+           <div class="col-5"><!--need 5 col-->
+            <img src="logo-paypal.png" >
+           </div>
+           <div class="col-5"><!--need 5 col-->
+            <img src="logo-philips.png" >
+           </div>
+        </div>
+    </div>
+</div>
+<!------------footer section------------->
+<div class="footer">
+    <div class="container"><!--using same class name of nav bar(we want same style of nav bar)-->
+        <div class="row"><!--for column-->
+            <div class="footer-col-1"><!--use different class name of each column because we need diff size-->
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="play-store.png" >
+                    <img src="app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2"><!--use different class name of each column because we need diff size-->
+                <img src="logo-white.png" >
+                <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3"><!--use different class name of each column because we need diff size-->
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4"><!--use different class name of each column because we need diff size-->
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr><!--for horizontal line-->
+        <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+    <!-------------js for toggle menu--------------->
+    <script>
+        var menuItem = document.getElementById("menuItem");
+        menuItem.style.maxHeight = "0px";
+
+        function menutoggle(){/*this fn will be call when click on the menu icon*/
+            if(menuItem.style.maxHeight == "0px"){
+                menuItem.style.maxHeight = "200px"
+            }
+            else{
+                menuItem.style.maxHeight = "0px"
+            }
+/*check if menuItem height = 2px? if it is change heint to 200px , if not change height to 0px*/           
+        };
+    </script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Product - RedStore </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href= "Ecommerce.css">
+</head>
+<body>
+     <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="150px">
+                </div>
+                <nav>
+                    <ul id="menuItem">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" height="30px" width="30px">
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>    
+    </div>
+<!------for account page----------------->
+    <div class="account-page">
+        <div class="container">
+            <div class="row"><!--for col-->
+                <div class="col-2"><!--1st col-->
+                    <img src="image1.png" width="100%" >
+                </div>
+                <div class="col-2"><!--2nd col-->
+                    <div class="form-container">
+                        <div class="form-Btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="indicator"><!--horizontal rule-->
+                        </div>
+                        <form  id="loginForm"><!--login-->
+                            <input type="text" placeholder="username">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="Btn">Login</button>
+                            <a href="">Forgot password</a>
+                        </form>
+                        <form  id="regForm"><!--register-->
+                            <input type="text" placeholder="username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="Btn">Register</button>    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!------------footer section------------->
+<div class="footer">
+    <div class="container"><!--using same class name of nav bar(we want same style of nav bar)-->
+        <div class="row"><!--for column-->
+            <div class="footer-col-1"><!--use different class name of each column because we need diff size-->
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="play-store.png" >
+                    <img src="app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2"><!--use different class name of each column because we need diff size-->
+                <img src="logo-white.png" >
+                <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3"><!--use different class name of each column because we need diff size-->
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4"><!--use different class name of each column because we need diff size-->
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr><!--for horizontal line-->
+        <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+    <!-------------js for toggle menu--------------->
+    <script>
+        var menuItem = document.getElementById("menuItem");
+        menuItem.style.maxHeight = "0px";
+
+        function menutoggle(){/*this fn will be call when click on the menu icon*/
+            if(menuItem.style.maxHeight == "0px"){
+                menuItem.style.maxHeight = "200px"
+            }
+            else{
+                menuItem.style.maxHeight = "0px"
+            }
+/*check if menuItem height = 2px? if it is change heint to 200px , if not change height to 0px*/           
+        };
+    </script>
+<!----------js for toggle form----------------------->
+    <script>
+        var loginForm = document.getElementById("loginForm");
+        var regForm = document.getElementById("regForm");
+        var indicator = document.getElementById("indicator");
+
+        /*declared each fn*/
+
+        function register(){
+            regForm.style.transform = "translateX(0px)";
+            loginForm.style.transform = "translateX(0px)";
+            indicator.style.transform = "translateX(100px)";
+
+        };
+        function login(){
+            regForm.style.transform = "translateX(300px)";
+            loginForm.style.transform = "translateX(300px)";
+            indicator.style.transform = "translateX(0px)";
+
+        };
+     
+
+
+
+    </script>
+
+</div>
+</body>
+</html>

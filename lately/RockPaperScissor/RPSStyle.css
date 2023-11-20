@@ -1,0 +1,19 @@
+#gameDiv{
+    border: 3px solid;
+    border-radius: 40px;
+    background-color: lightgray;
+    padding:10px ;/*space between element border and content*/
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+.choiceBtn{
+    line-height: 30px ;
+    width: 150px  ;
+    border: 2px solid;
+}

@@ -1,0 +1,19 @@
+#gameDiv{
+    border: 3px solid;
+    border-radius: 40px;
+    background-color: palevioletred;
+    padding:50px 10px 20px 30px ;/* one value*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*PADDING
+  -one value: div{padding: 50px } = 4 side will have padding with 50 px
+  -two value: div{padding: 50px 10px }= top and bottom padding 50 px,
+                                        left and ringt padding 10 px
+  -three value: div{padding: 50px 10px 20px }= top padding 50px
+                                               left and right padding 10px
+                                               bottom 20px
+  -four value: div{padding: 50px 10px 20px 30px}= top padding 50px
+                                                  right padding 10px
+                                                  bottom padding 20px
+                                                  left padding 30px*/

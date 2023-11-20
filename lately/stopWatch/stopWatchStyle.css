@@ -1,0 +1,28 @@
+#timeDisplay{
+    color:#05f215;
+    font-family: "consolas", monospace;
+    font-size: 75px ;
+}
+.Btn{
+    font-family: "consolas",monospace;
+    font-size: 20px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    cursor: pointer;
+    
+}
+#watchContainer{
+    border: 3px solid;
+    text-align: center;
+    border-radius: 25px;
+    width: 450px;
+    height: 200%;
+    background-color:#0f0f0f ;
+}
+   
+    
+    

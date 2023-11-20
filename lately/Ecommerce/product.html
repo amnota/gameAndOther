@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Product - RedStore </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href= "Ecommerce.css">
+</head>
+<body>
+     <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="150px">
+                </div>
+                <nav>
+                    <ul id="menuItem">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" height="30px" width="30px">
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>    
+    </div>
+ 
+    <div class="small-container">
+
+        <div class="row row-2" >
+            <h2>All Product</h2>
+            <select >
+                <option >Default sorting</option>
+                <option >Sort by price</option>
+                <option >Sort by popularity</option>
+                <option >Sort by rating</option>
+                <option >Sort by sale</option>
+            </select>
+        </div>
+
+
+        <div class="row"><!--for create column-->
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-1.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-2.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-3.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-4.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+        </div>   
+        <!------------add more product(but still same container)----------------------->
+        <div class="row"><!--for create column-->
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-5.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-6.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-7.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-8.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-9.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-10.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-11.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                    
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+            <div class="col-4"><!--create a col of product img-->
+                <img src="product-12.jpg" >
+                <h4>Red Printed T-Shirt</h4><!--name of PD-->
+                <div class="rating"> <!--add rating-->
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p><!--price-->
+            </div>
+        </div> 
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span><!--arrow icon-->
+        </div>
+    </div>
+   
+
+<!------------footer section------------->
+<div class="footer">
+    <div class="container"><!--using same class name of nav bar(we want same style of nav bar)-->
+        <div class="row"><!--for column-->
+            <div class="footer-col-1"><!--use different class name of each column because we need diff size-->
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="play-store.png" >
+                    <img src="app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2"><!--use different class name of each column because we need diff size-->
+                <img src="logo-white.png" >
+                <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3"><!--use different class name of each column because we need diff size-->
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4"><!--use different class name of each column because we need diff size-->
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr><!--for horizontal line-->
+        <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+    </div>
+    <!-------------js for toggle menu--------------->
+    <script>
+        var menuItem = document.getElementById("menuItem");
+        menuItem.style.maxHeight = "0px";
+
+        function menutoggle(){/*this fn will be call when click on the menu icon*/
+            if(menuItem.style.maxHeight == "0px"){
+                menuItem.style.maxHeight = "200px"
+            }
+            else{
+                menuItem.style.maxHeight = "0px"
+            }
+/*check if menuItem height = 2px? if it is change heint to 200px , if not change height to 0px*/           
+        };
+    </script>
+
+</div>
+</body>
+</html>

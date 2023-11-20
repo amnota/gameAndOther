@@ -1,0 +1,68 @@
+/*body{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    height: 100vh;
+    justify-content: center;
+
+}*/
+
+body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
+    background: url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+h2{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.container{
+    display: flex;
+}
+.container div {
+    margin: 5px; position: relative;
+}
+.container span{
+    color: white;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size:50px;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0 ,0.3);
+    padding-top: 10px;
+    background-color: #FFBF00;
+    border: 1px solid seashell ;
+    opacity:0.9;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.container .Text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    background-color: 	#097969;
+    opacity: 0.9;    
+}
+.container #ampm{
+    margin-top: 30px;
+    height: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 5px 2px 5px 2px;
+    background-color: 	#097969;
+    opacity: 0.9; 
+}
